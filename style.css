@@ -179,13 +179,6 @@ color:#ffffff;
 
 }
 
-.fa-brands fa-facebook {
-    margin:10px;
-}
-
-.fa-brands fa-instagram {
-    margin:10px;
-}
 
 /* LEGAL */
 .legal h5{
@@ -482,8 +475,10 @@ color: #ffffff;
     margin:10px;
 }
 
-.mapa{
-    width: 8000px;
+.mapa_imagen{
+    padding-top: 30px;
+    width: 520px;
+    height: 300px;
 
 }
 
