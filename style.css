@@ -9,12 +9,13 @@
 
 a {
     text-decoration: none;
-    padding: 0;
     color: #e44f1d;
-
-    padding: 0;
+    display: block ;
     transition: .4s;
+    padding: 0px;
 }
+
+
 
 /* LOGO UPSIDE */
 .logo p a {
@@ -24,7 +25,7 @@ a {
     float: left;
     font-size: 25px;
     align-items: center;
-    padding: 30px;
+    padding: 32px;
     background-color: #201f24;
 }
 
@@ -34,6 +35,10 @@ a {
     font-family: 'Mitr', sans-serif;
 }
 
+
+.logo1 {
+    margin-bottom: 0px;
+}
 
 /* ESTILOS GENERALES */
 
@@ -51,7 +56,6 @@ body {
 
 .banner_principal{
     background-color: #201f24;
-
     animation-name: banner1;
     transition: 2s;
     animation-iteration-count: infinite;
@@ -74,6 +78,11 @@ nav {
 }
 
 
+/* CARRUSEL BOOTSTRAP */
+.carousel-inner {
+    width: 100%;
+    height: 100%px;
+}
 
 
 
@@ -85,6 +94,8 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;   
 
 }
 
@@ -93,6 +104,7 @@ display: block;
 padding: 35px 20px;
 color:#bfbfbfd7;
 text-decoration: none;
+
 }
 
 .menu-horizontal > li:hover {
@@ -113,10 +125,12 @@ background-color: #625552b4;
     list-style:none;
     width: 170px;
     background-color: #201f24;
+    z-index:1;
 }
 
 .menu-vertical li:hover{
     background-color: #625552b4;
+    display: flex;
     transition: .4s;
 }
 
@@ -127,6 +141,11 @@ padding: 15px 15px 15px 20px;
 text-decoration: none;
 transition: .4s;
 }
+
+
+
+
+
 
 
 /* BANNER 1 UPSIDE */
@@ -158,7 +177,7 @@ transition: .4s;
     color: #302f33;
     padding-top: 30px;  
     padding: 5px;  
-    margin: 50px;
+    margin: 20px;
 }
 
 .botones_footer {
@@ -170,14 +189,18 @@ color:#ffffff;
     transition: .4s;
 }
 
-.footer ul a {
-    text-decoration: none;
-    padding: 0;
-    color: #bfbfbfd7;
-    padding: 0;
-    transition: .4s;
 
+
+ul {
+    padding: 0;
 }
+
+
+
+
+
+
+
 
 
 /* LEGAL */
@@ -197,15 +220,18 @@ color:#ffffff;
     background-color: #c11414;
     padding: 10px;
     display:flex;
+    flex-direction: column;
     font-weight: bold;
     font-size: 23px;
     cursor: pointer;
     align-items: center;
+    text-align: center;
 
 }
 
 .btn:hover {
     background-color: #1a731f;
+    color: #ffffff;
     transition: 0.3s;
 }
 
@@ -240,7 +266,7 @@ color:#ffffff;
 
 .mostrador .fila .item{
     max-width: 200px;
-    padding: 30px;
+    padding: 0px;
     height: 400px;
     text-align: center;
     margin: 5 30px;
@@ -254,7 +280,7 @@ color:#ffffff;
 }
 
 .mostrador .fila .item:hover {
-    background-color:#625552b4;
+    background-color:#fffffff7;
 }
 
 .mostrador .fila .item img {
@@ -300,7 +326,7 @@ color:#ffffff;
     font-size: 25px;
     color: #d3d3d3;
     width: 100%;
-    height: 1580px;
+    height: 1780px;
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -320,9 +346,10 @@ color: #ffffff;
 
 
 
-.header .imagen_contact {
+.btn .imagen_contact {
     background-color: #201f24;
     color: #143d11;
+    z-index:1;
 }
 
 
@@ -335,8 +362,8 @@ font-size: 22px;
 text-align: left;
 flex-direction: column;
 width: 200%;
-gap: 10px;
-padding: 7px;
+gap: 1px;
+padding: 3px;
 padding-bottom: 20px;
 padding-left: 25px;
 }
@@ -357,10 +384,10 @@ gap: 10px;
 .form_content input{
     padding: 5px;
     font-family: 'Karla', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     width: 45%;
     border-radius: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     margin: 6px;
     resize: none;
     }
@@ -399,7 +426,7 @@ width: 45%;
 .panel_ingreso_nombre {
     padding-top: 100px;
     padding-left: 39.3%;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #201f24;
     padding-bottom: 10px;
     color: #ffffff;
@@ -462,9 +489,9 @@ height: 38px;
 margin: 2px;
 padding: 1px;
 font-size: 20px;
-background-color: #f50404;
+background-color: #140f7c;
 border-radius: 5px;
-border-color: #f50404;
+border-color: #0303b1;
 color: #ffffff;
 }
 
@@ -479,7 +506,30 @@ color: #ffffff;
     padding-top: 30px;
     width: 520px;
     height: 300px;
+}
 
+
+
+
+/** CARD FINAL PROMO **/
+.btn-promo {
+    border-radius: 7px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #140f7c;
+    padding: 10px 25px 10px 25px;
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-promo:hover {
+    background-color: #0a2e0c;
+    transition: 0.3s;
 }
 
 /* CATEGORIAS */
@@ -488,9 +538,9 @@ color: #ffffff;
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 720px) {
     .cards {
-        background-color: #143d11;}
+}
 
     .menu-horizontal {
         font-size: 16px;
@@ -516,23 +566,49 @@ color: #ffffff;
     font-size: 16px;
 }
 
+.mapa_imagen{
+    padding-top: 30px;
+    width: 350px;
+    height: 210px;
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 300px){
     .cards {
-        background-color: #e60101;}
+}
 
     .menu-horizontal {
-        font-size: 20px;
+        font-size: 18px;
         display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
 
     }
 
     .menu-vertical{
-        font-size: 20px;
+        font-size: 17px;
         display: none;
-        
-    }
 
 
     }
+
+    @media only screen and (min-width: 301px) and (max-width: 1200px){
+        .cards {
+    }
+    
+        .menu-horizontal {
+            font-size: 20px;
+            display: flex;
+    
+        }
+    
+        .menu-vertical{
+            font-size: 19px;
+            display: none;
+            
+        }
+    
+    
+        }
