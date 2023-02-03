@@ -1,0 +1,78 @@
+/** INICIO DE SESION **/
+
+/** PAGINA MI CUENTA (INGRESO SESION) **/
+.panel_ingreso_nombre {
+    padding-top: 100px;
+    padding-left: 39.3%;
+    font-size: 25px;
+    background-color: #201f24;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.panel_ingreso_contraseña {
+    padding-top: 49px;
+    padding-right: 269.5px;
+    font-size: 20px;
+    background-color: #201f24;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.input_password{
+width: 380px;
+height: 50px;
+font-size: 22px;
+border-radius: 5px;
+}
+
+.input_iniciar {
+    width: 380px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.panel_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #201f24;
+    color: #ffffff;
+}
+
+.panel_registrocuenta{
+    background-color: #201f24;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.btn_inicio {
+    width: 140px;
+    height: 50px;
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn_registro    {
+width: 120px;
+height: 38px;
+margin: 2px;
+padding: 1px;
+font-size: 20px;
+background-color: #140f7c;
+border-radius: 5px;
+border-color: #0303b1;
+color: #ffffff;
+}
+
+.olvide {
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 1PX;
+    margin:10px;
+}

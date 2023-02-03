@@ -1,0 +1,56 @@
+@media only screen and (max-width: 720px) {
+    .menu-horizontal {
+        font-size: 16px;
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menu-vertical {
+        font-size: 15px;
+        display: none;
+        width: 100%;
+    }
+
+    .logo1 {
+        display: flex;
+    }
+
+    .panel_ingreso_nombre {
+        font-size: 16px;
+    }
+
+    .mapa_imagen {
+        padding-top: 30px;
+        width: 350px;
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .menu-horizontal {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .menu-vertical {
+        font-size: 17px;
+        display: flex;
+    }
+
+
+}
+
+@media only screen and (min-width: 301px) and (max-width: 1200px) {
+    .menu-horizontal {
+        font-size: 20px;
+        display: flex;
+    }
+
+    .menu-vertical {
+        font-size: 19px;
+        display: none;
+    }
+}

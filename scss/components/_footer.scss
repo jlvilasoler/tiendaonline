@@ -1,0 +1,40 @@
+
+/* BANNER 2 DOWNSIDE */
+.imagen_2 {
+    background-color: #000000f1;
+    width: 100%;
+    height: 400px;
+    display: block;
+    padding: 1px;
+    margin:0 auto;
+    
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #201f24;
+    color: #302f33;
+    padding-top: 30px;  
+    padding: 5px;  
+    margin: 20px;
+}
+
+.botones_footer {
+    color: #bfbfbfd7;
+}
+
+.botones_footer:hover{
+color:#ffffff;
+    transition: .4s;
+}
+
+/* LEGAL */
+.legal h5{
+    float: right;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    padding: 5px;  
+    margin: 20px;
+}

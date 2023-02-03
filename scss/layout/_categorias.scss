@@ -1,0 +1,52 @@
+
+
+.ofertas {
+    color: rgb(240, 240, 240);
+    background-color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.oferta_titulo h1 {
+    font-size: 26px;
+    margin: 0;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto 90px;
+    margin: 80px;
+    padding: 0px;
+
+}
+
+.btn_categoria {
+    background-color: aliceblue;
+    font-size: 55px;
+    height: 100px;
+    border-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.btn_categoria:hover {
+    background-color: #c93c19;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.categoria {
+    background-color: #201f24;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+/** CONTACTO **/
+
+.form  {
+    background:#252427;
+    font-size: 25px;
+    color: #d3d3d3;
+    width: 100%;
+    height: 1780px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    gap: 10px;
+    resize: none;
+}
+
+
+.contacto_primer_titulo {
+background-color: #201f24;
+font-size: 20px;
+padding: 10px;
+margin: 0px;
+color: #ffffff;
+}
+
+
+
+
+.btn .imagen_contact {
+    background-color: #201f24;
+    color: #143d11;
+    z-index:1;
+}
+
+
+
+
+
+.form_content {
+display: flex;
+font-size: 22px;
+text-align: left;
+flex-direction: column;
+width: 200%;
+gap: 1px;
+padding: 3px;
+padding-bottom: 20px;
+padding-left: 25px;
+}
+
+
+.form_content select{
+height: 40px;
+display: flex;
+font-size: 25px;
+width: 200px;
+padding: 7px;
+gap: 10px;
+    }
+    
+
+
+
+.form_content input{
+    padding: 5px;
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    width: 45%;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin: 6px;
+    resize: none;
+    }
+
+.form_content textarea {
+resize: none;
+font-size: 28px;
+width: 45%;
+}
+
+.main {
+    background-color: #201f24; 
+    display: flex;
+    flex-direction: right;
+    align-items: center;   
+    justify-content: center;
+}
+
+.form fieldset {
+    margin-top: 50px;
+    width: 30%;
+    padding-top: 20px;
+    height: 1500px;
+}
+
+.form_content .tipo {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.categoria_titulo_contacto {
+    background-color: #201f24;
+    color: #ffffff;
+    font-size: 26px;
+    padding-top: 80px;
+    margin: 0;
+    text-align: center
+}

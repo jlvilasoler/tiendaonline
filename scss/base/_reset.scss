@@ -1,0 +1,16 @@
+/* * Selector universal de reseteo de estilos por default del html */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e44f1d;
+    display: block ;
+    transition: .4s;
+    padding: 0px;
+}

@@ -1,0 +1,138 @@
+/* LOGO UPSIDE */
+.logo p a {
+    color:#ffffff;
+    display: flex;
+    justify-content: right; 
+    float: left;
+    font-size: 25px;
+    align-items: center;
+    padding: 32px;
+    background-color: #201f24;
+}
+
+.second-color {
+    font-size: 25px;
+    color:#c93c19;
+    font-family: 'Mitr', sans-serif;
+}
+
+
+.logo1 {
+    margin-bottom: 0px;
+}
+
+/* ESTILOS GENERALES */
+
+body {
+    background-color: #201f24;
+}
+
+
+
+.contenido-principal {
+    background-color: #201f24;
+    margin: 2px;
+}
+
+
+.banner_principal{
+    background-color: #201f24;
+    animation-name: banner1;
+    transition: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.banner_segundo {
+    background-color: #201f24;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #201f24;
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* CARRUSEL BOOTSTRAP */
+.carousel-inner {
+    width: 100%;
+    height: 100%px;
+}
+
+/* BANNER 1 UPSIDE */
+.imagen_1 {
+    background-color: #000000f1;
+    width: 100%;
+    height: 400px;
+    display: block;
+    padding: 1px;
+    margin:0 auto;
+    
+}
+
+
+
+
+
+/* MENU HORIZONTAL */
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;   
+
+}
+
+.menu-horizontal > li > a{
+display: block;
+padding: 35px 20px;
+color:#bfbfbfd7;
+text-decoration: none;
+
+}
+
+.menu-horizontal > li:hover {
+background-color: #625552b4;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+    transition: .3s;
+}
+
+
+
+/* MENU VERTICAL */
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style:none;
+    width: 170px;
+    background-color: #201f24;
+    z-index:1;
+}
+
+.menu-vertical li:hover{
+    background-color: #625552b4;
+    display: flex;
+    transition: .4s;
+}
+
+.menu-vertical li a{
+display: block;
+color: #bfbfbfd7;
+padding: 15px 15px 15px 20px;
+text-decoration: none;
+transition: .4s;
+}
+
+UL {
+    padding: 0;
+}
