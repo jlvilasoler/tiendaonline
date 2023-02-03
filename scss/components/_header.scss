@@ -84,10 +84,10 @@ nav {
 .menu-horizontal {
     list-style: none;
     display: flex;
+    flex-wrap: column;
     justify-content: space-around;
     margin-bottom: 0px;
     margin-top: 0px;   
-
 }
 
 .menu-horizontal > li > a{
@@ -95,7 +95,6 @@ display: block;
 padding: 35px 20px;
 color:#bfbfbfd7;
 text-decoration: none;
-
 }
 
 .menu-horizontal > li:hover {
@@ -135,4 +134,5 @@ transition: .4s;
 
 UL {
     padding: 0;
+    margin:0;
 }

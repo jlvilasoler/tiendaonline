@@ -1,4 +1,5 @@
-@media only screen and (max-width: 720px) {
+
+@media only screen and (max-width:900px) {
     .menu-horizontal {
         font-size: 16px;
         display: inline-block;
@@ -20,37 +21,32 @@
         font-size: 16px;
     }
 
-    .mapa_imagen {
+    .mapa .mapa_imagen {
         padding-top: 30px;
-        width: 350px;
-        height: 210px;
+        width: 300px;
+        height: 190px;
+    }
+    
+    .ofertas .oferta_titulo h1 {
+        font-size: 16px;
+        margin: 0;
     }
 }
 
-@media only screen and (max-width: 300px) {
-    .menu-horizontal {
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-    }
 
-    .menu-vertical {
-        font-size: 17px;
-        display: flex;
-    }
 
+@media only screen and (max-width:600px) {
 
 }
 
-@media only screen and (min-width: 301px) and (max-width: 1200px) {
-    .menu-horizontal {
-        font-size: 20px;
-        display: flex;
-    }
 
-    .menu-vertical {
-        font-size: 19px;
-        display: none;
+
+
+@media only screen and (max-width:480px) {
+    .grids {
+        display: grid;
+        grid-template-column: 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
+    
 }
