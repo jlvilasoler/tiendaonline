@@ -535,6 +535,15 @@ UL {
   margin: 10px;
 }
 
+.categoria_titulo_registro {
+  background-color: #201f24;
+  color: #ffffff;
+  font-size: 26px;
+  padding-top: 80px;
+  margin: 0;
+  text-align: center;
+}
+
 .ofertas {
   color: rgb(240, 240, 240);
   background-color: red;
