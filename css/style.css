@@ -130,10 +130,10 @@ nav {
 }
 
 /* MENU HORIZONTAL */
+/* MENU HORIZONTAL */
 .menu-horizontal {
   list-style: none;
   display: flex;
-  flex-wrap: column;
   justify-content: space-around;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -184,7 +184,7 @@ UL {
   margin: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 720px) {
   .menu-horizontal {
     font-size: 16px;
     display: inline-block;
@@ -202,23 +202,40 @@ UL {
   .panel_ingreso_nombre {
     font-size: 16px;
   }
-  .mapa .mapa_imagen {
+  .mapa_imagen {
     padding-top: 30px;
-    width: 300px;
-    height: 190px;
+    width: 350px;
+    height: 210px;
   }
-  .ofertas .oferta_titulo h1 {
-    font-size: 16px;
+}
+@media only screen and (max-width: 300px) {
+  .menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .menu-vertical {
+    font-size: 17px;
+    display: inline-block;
+  }
+  .ofertas {
+    color: rgb(240, 240, 240);
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    margin-top: 90px;
+  }
+  h1 {
+    font-size: 10px;
     margin: 0;
   }
 }
-@media only screen and (max-width: 480px) {
-  .grids {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
+/**
+@media only screen and (min-width: 301px) and (max-width: 1200px) {
+
 }
+**/
 /* CONTENIDO PRINCIPAL (CARDS PRODUCTOS) */
 .contenido {
   max-width: 400px;
@@ -655,25 +672,28 @@ UL {
 
 /* BOTONES CATEGORIAS */
 .grid {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: auto 90px;
-  margin: 80px;
-  padding: 0px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 240px;
+}
+
+.grid .btn_categoria {
+  display: inline-block;
+  width: 25%;
+  justify-content: center;
 }
 
 .btn_categoria {
   background-color: aliceblue;
-  font-size: 55px;
-  height: 100px;
+  font-size: 50px;
   border-color: white;
   border-radius: 5px;
-  margin: 5px;
-  align-items: center;
+  margin: 1px;
   text-align: center;
   font-weight: bold;
-  padding: 10px;
-  margin-top: 50px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-left: 30%;
   cursor: pointer;
 }
 

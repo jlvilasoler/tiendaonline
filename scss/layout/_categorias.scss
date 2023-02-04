@@ -124,26 +124,30 @@
 
 
 /* BOTONES CATEGORIAS */
-.grid{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto 90px;
-    margin: 80px;
-    padding: 0px;
+
+.grid {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 240px;
+}
+
+.grid .btn_categoria{
+    display: inline-block;
+    width: 25%;
+    justify-content: center;
 }
 
 .btn_categoria {
     background-color: aliceblue;
-    font-size: 55px;
-    height: 100px;
+    font-size: 50px;
     border-color: white;
     border-radius: 5px;
-    margin: 5px;
-    align-items: center;
+    margin: 1px;
     text-align: center;
     font-weight: bold;
-    padding: 10px;
-    margin-top: 50px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 30%;
     cursor: pointer;
 }
 
@@ -159,3 +163,4 @@
     font-size: 26px;
     text-align: center;
 }
+
