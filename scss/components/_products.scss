@@ -1,13 +1,13 @@
 /* CONTENIDO PRINCIPAL (CARDS PRODUCTOS) */
-.contenido{
+.contenido-products{
     max-width: 400px;
     width: 100%;
     margin: 40px auto;
     display: flex;
 }
 
-.cards {
-    background-color: $bk-snd-color;
+.cards-products {
+    background-color: #fffffff7;
     display:flex;
     padding: 0px 10px 20px 100px;
     flex-wrap: wrap;
@@ -17,18 +17,18 @@
     align-items: center;
     }
 
-.mostrador {
+.mostrador-products {
     width: 70%;
     transition: .3s ease;
     }
 
-.mostrador .fila {
+.mostrador-products .fila-products {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
     }
 
-.mostrador .fila .item{
+.mostrador-products .fila-products .item-products{
     max-width: 200px;
     padding: 0px;
     height: 400px;
@@ -39,38 +39,38 @@
     transition: 1s;
 }
 
-.mostrador .fila .item {
+.mostrador-products .fila-products .item-products {
     width: 100%;
 }
 
-.mostrador .fila .item:hover {
-    background-color: $bk-hover-color;
+.mostrador-products .fila-products .item-products:hover {
+    background-color:#fffffff7;
 }
 
-.mostrador .fila .item img {
+.mostrador-products .fila-products .item-products img {
     width: 100%;
     margin: 30px 0;
 }
 
-.mostrador .fila .item .articulo {
-    color: $text-product-article;
+.mostrador-products .fila-products .item-products .articulo-products {
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 16px;
 } 
 
-.mostrador .fila .item .descripcion {
+.mostrador-products .fila-products .item-products .descripcion-products {
     color: #0000006f;
     font-weight: bold;
     font-size: 16px;
 } 
 
-.mostrador .fila .item .precio {
-    color: $text-product-price;
+.mostrador-products .fila-products .item-products .precio-products {
+    color: #143d11;
     font-weight: bold;
     font-size: 32px;
 } 
 
-.seleccion {
+.seleccion-products {
     transition: 5s ease;
     width: 40%;
     border: 1px solid white;
@@ -82,11 +82,11 @@
 }
 
 /* BOTONES AGREGAR A CARRITO */
-.btn {
+.btn-products {
     border-radius: 7px;
     margin-top: 10px;
-    color: $text-botton-color;
-    background-color: $bk-botton-color;
+    color: #ffffff;
+    background-color: #c11414;
     padding: 10px;
     display:flex;
     flex-direction: column;
@@ -97,39 +97,8 @@
     text-align: center;
 }
 
-.btn:hover {
-    background-color: $hover-botton-color;
-    color: $text-botton-color;
-    transition: 0.3s;
-}
-
-
-
-/* MAPA INDEX */
-.mapa_imagen{
-    padding-top: 30px;
-    width: 520px;
-    height: 300px;
-}
-
-
-/** CARD FINAL PROMO **/
-.btn-promo {
-    border-radius: 7px;
-    margin-top: 20px;
+.btn-products:hover {
+    background-color: #1a731f;
     color: #ffffff;
-    background-color: $bk-botton-color-card;
-    padding: 10px 25px 10px 25px;
-    display:flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 23px;
-    cursor: pointer;
-    text-align: center;
-    align-content: center;
-}
-
-.btn-promo:hover {
-    background-color: $select-botton-color-card;
     transition: 0.3s;
 }

@@ -1,18 +1,18 @@
 /* LOGO UPSIDE */
 .logo p a {
-    color:#ffffff;
+    color: $logo-color;
     display: flex;
     justify-content: right; 
     float: left;
     font-size: 25px;
     align-items: center;
     padding: 32px;
-    background-color: #201f24;
+    background-color: $bk-color;
 }
 
 .second-color {
     font-size: 25px;
-    color:#c93c19;
+    color: $logo-snd-color;
     font-family: 'Mitr', sans-serif;
 }
 
@@ -24,19 +24,19 @@
 /* ESTILOS GENERALES */
 
 body {
-    background-color: #201f24;
+    background-color: $bk-color;
 }
 
 
 
 .contenido-principal {
-    background-color: #201f24;
+    background-color: $bk-color;
     margin: 2px;
 }
 
 
 .banner_principal{
-    background-color: #201f24;
+    background-color: $bk-color;
     animation-name: banner1;
     transition: 2s;
     animation-iteration-count: infinite;
@@ -46,13 +46,13 @@ body {
 }
 
 .banner_segundo {
-    background-color: #201f24;
+    background-color: $bk-color;
 }
 
 nav {
     max-width: 900px;
     margin: auto;
-    background-color: #201f24;
+    background-color: $bk-color;
     font-size: 20px;
     margin: 0px;
     padding-bottom: 0px;
@@ -67,7 +67,7 @@ nav {
 
 /* BANNER 1 UPSIDE */
 .imagen_1 {
-    background-color: #000000f1;
+    background-color: $bk-color;
     width: 100%;
     height: 400px;
     display: block;
@@ -93,13 +93,13 @@ nav {
 .menu-horizontal > li > a{
 display: block;
 padding: 35px 20px;
-color:#bfbfbfd7;
+color: $main-menu-color;
 text-decoration: none;
 
 }
 
 .menu-horizontal > li:hover {
-background-color: #625552b4;
+background-color: $select-color;
 }
 
 .menu-horizontal li:hover .menu-vertical {
@@ -115,19 +115,19 @@ background-color: #625552b4;
     display: none;
     list-style:none;
     width: 170px;
-    background-color: #201f24;
+    background-color: $bk-color;
     z-index:1;
 }
 
 .menu-vertical li:hover{
-    background-color: #625552b4;
+    background-color: $select-color;
     display: flex;
     transition: .4s;
 }
 
 .menu-vertical li a{
 display: block;
-color: #bfbfbfd7;
+color: $main-menu-color;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
 transition: .4s;
