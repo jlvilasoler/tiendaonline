@@ -46,7 +46,7 @@ a {
 .legal h5 {
   float: right;
   color: white;
-  font-size: 10px;
+  font-size: 13px;
   text-align: right;
   padding: 5px;
   margin: 20px;
@@ -328,7 +328,6 @@ ul {
   background: #201f24;
   font-size: 25px;
   color: #d3d3d3;
-  width: 112%;
   height: 1550px;
   display: flex;
   flex-direction: center;
@@ -361,7 +360,7 @@ ul {
   height: 40px;
   display: flex;
   font-size: 25px;
-  width: 45%;
+  width: 390px;
   padding: 7px;
   gap: 10px;
 }
@@ -370,7 +369,7 @@ ul {
   padding: 5px;
   font-family: "Karla", sans-serif;
   font-size: 22px;
-  width: 45%;
+  width: 390px;
   border-radius: 5px;
   padding-bottom: 5px;
   margin: 6px;
@@ -380,22 +379,24 @@ ul {
 .form_content textarea {
   resize: none;
   font-size: 28px;
-  width: 45%;
+  width: 390px;
 }
 
 .main {
   background-color: #201f24;
   display: flex;
+  justify-content: center;
   flex-direction: right;
   align-items: center;
-  justify-content: center;
 }
 
 .form_content fieldset {
-  margin-top: 100px;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
   padding-top: 20px;
   height: 1500px;
+  justify-content: center;
 }
 
 .form_content .tipo {
@@ -514,7 +515,6 @@ ul {
   gap: 1px;
   padding-top: 5px;
   padding-bottom: 10px;
-  padding-left: 40px;
 }
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
@@ -522,7 +522,7 @@ ul {
   height: 40px;
   display: flex;
   font-size: 25px;
-  width: 45%;
+  width: 390px;
   padding: 7px;
   gap: 10px;
 }
@@ -531,7 +531,7 @@ ul {
   padding: 5px;
   font-family: "Karla", sans-serif;
   font-size: 22px;
-  width: 45%;
+  width: 390px;
   border-radius: 5px;
   padding-bottom: 5px;
   margin: 6px;
@@ -541,7 +541,7 @@ ul {
 .form_content_registro textarea {
   resize: none;
   font-size: 28px;
-  width: 45%;
+  width: 390px;
 }
 
 .main {
@@ -553,10 +553,12 @@ ul {
 }
 
 .form_registro fieldset {
-  margin-top: 100px;
-  width: 30%;
-  padding-top: 20px;
-  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 1300px;
+  justify-content: center;
 }
 
 .form_content_registro .tipo {
