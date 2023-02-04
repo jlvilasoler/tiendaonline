@@ -12,87 +12,38 @@
         width: 100%;
     }
 
-    .logo1 {
-        display: flex;
-    }
-
-    .panel_ingreso_nombre {
-        font-size: 16px;
-    }
-
     .mapa_imagen {
         padding-top: 30px;
         width: 400px;
         height: 220px;
     }
 
-    .oferta_titulo h1 {
-        font-size: 16px;
-
-    }
-    
-    .grid {
-        padding-left: 1px;
-    }
-
-    .grid .btn_categoria{
-        width: 41%;
-    }
-    
-    .btn_categoria {
-        font-size: 25px;
-        margin-top: 5px;
-        margin-left: 30%;
-    }
 
     .legal h5{
         font-size: 9px;
     }
 
-    .categoria_titulo_registro {
-        font-size: 20px;
+
+    .oferta_titulo h1 {
+        font-size: 16px;
     }
-
-
-    .form_registro fieldset {
-        margin-top: 50px;
-        width: 340px;
-        height: 100px;
-        padding-top: 20px;
-        height: 1500px;
-    }
-
-
-    .form_content {
-        width: 20%;
-        height: 1500px;
-    }
-
-    .form_content_contacto {
-        width: 790px;
-        padding-bottom: 10px;
-    }
-
-
-    
-
-
-
-
-
-
 
 
 
 }
 
 
-@media only screen and (min-width: 550px) and  (max-width: 700px){
+
+
+
+
+
+@media only screen and (max-width:768px){
     .menu-horizontal {
         font-size: 16px;
         display: inline-block;
         justify-content: center;
-        width:100%;
+        width: 100%;
     }
 
     .menu-vertical {
@@ -101,114 +52,10 @@
         width: 100%;
     }
 
-    .logo1 {
-        display: flex;
-    }
 
-    .panel_ingreso_nombre {
+    .oferta_titulo h1 {
         font-size: 16px;
     }
-
-    .mapa_imagen {
-        padding-top: 30px;
-        width: 350px;
-        height: 210px;
-    }
-   
-    .oferta_titulo h1 {
-        font-size: 18px;
-        margin: 0;
-    }
-    
-
-
-
-
-
-    .form_content select {
-        width: 100%;
-    }
-
-    .form_content {
-        width: 20%;
-        height: 1500px;
-    }
-
-    .form_content_contacto {
-        width: 790px;
-        padding-bottom: 10px;
-    }
-
-    .categoria_titulo_registro {
-        font-size: 20px;
-    }
-
-
-    .form_registro fieldset {
-        margin-top: 50px;
-        width: 340px;
-        height: 100px;
-        padding-top: 20px;
-        height: 1500px;
-    }
-    
-    .form_content_registro select {
-        height: 40px;
-        display: flex;
-        font-size: 25px;
-        width: 45%;
-        
-
-    }
-
-
-    .form_content_registro input {
-
-        width: 500px;
-
-    }
-
-
-
-
-
-}
-
-
-
-
-@media only screen and (min-width: 700px) {
-
-
-    .oferta_titulo h1 {
-        font-size: 25px;
-        margin: 0;
-    }
-
-    .grid {
-        padding-left: 1px;
-    }
-
-    .grid .btn_categoria{
-        width: 40%;
-        height: 65px;
-    }
-    
-    .btn_categoria {
-        font-size: 47px;
-        margin-top: 5px;
-        margin-left: 30%;
-    }
-
-    .form_contact fieldset {
-        margin-top: 50px;
-        width: 450px;
-        height: 100px;
-        padding-top: 20px;
-        height: 1500px;
-    }
-
-    
 
 
 }
