@@ -189,14 +189,12 @@ ul {
   width: 70%;
   transition: 0.3s ease;
 }
-
 .mostrador .fila {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
 }
-
-.mostrador .fila .item {
+.mostrador .item {
   max-width: 200px;
   padding: 0px;
   height: 400px;
@@ -206,33 +204,27 @@ ul {
   border-radius: 10px;
   transition: 1s;
 }
-
-.mostrador .fila .item {
+.mostrador .item {
   width: 100%;
 }
-
-.mostrador .fila .item:hover {
+.mostrador .item:hover {
   background-color: rgb(255, 255, 255);
 }
-
-.mostrador .fila .item img {
+.mostrador img {
   width: 100%;
   margin: 30px 0;
 }
-
-.mostrador .fila .item .articulo {
+.mostrador .articulo {
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 16px;
 }
-
-.mostrador .fila .item .descripcion {
+.mostrador .descripcion {
   color: rgba(0, 0, 0, 0.4352941176);
   font-weight: bold;
   font-size: 16px;
 }
-
-.mostrador .fila .item .precio {
+.mostrador .precio {
   color: #143d11;
   font-weight: bold;
   font-size: 32px;
@@ -512,6 +504,16 @@ ul {
   padding: 7px;
   gap: 10px;
 }
+.form_content_registro select input {
+  padding: 5px;
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  width: 390px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  margin: 6px;
+  resize: none;
+}
 
 .form_content_registro input {
   padding: 5px;
@@ -589,13 +591,11 @@ ul {
   width: 70%;
   transition: 0.3s ease;
 }
-
 .mostrador .fila {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
 }
-
 .mostrador .fila .item {
   max-width: 200px;
   padding: 0px;
@@ -606,33 +606,27 @@ ul {
   border-radius: 10px;
   transition: 1s;
 }
-
 .mostrador .fila .item {
   width: 100%;
 }
-
 .mostrador .fila .item:hover {
   background-color: rgb(255, 255, 255);
 }
-
 .mostrador .fila .item img {
   width: 100%;
   margin: 30px 0;
 }
-
-.mostrador .fila .item .articulo {
+.mostrador .fila .articulo {
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 16px;
 }
-
-.mostrador .fila .item .descripcion {
+.mostrador .fila .descripcion {
   color: rgba(0, 0, 0, 0.4352941176);
   font-weight: bold;
   font-size: 16px;
 }
-
-.mostrador .fila .item .precio {
+.mostrador .fila .precio {
   color: #143d11;
   font-weight: bold;
   font-size: 32px;
@@ -678,7 +672,6 @@ ul {
   padding-bottom: 60px;
   align-items: center;
 }
-
 .cat .btn_categoria {
   width: 380px;
   height: 70px;

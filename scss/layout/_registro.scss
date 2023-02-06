@@ -41,6 +41,17 @@
     width: 390px;
     padding: 7px;
     gap: 10px;
+
+    input {
+        padding: 5px;
+        font-family: 'Karla', sans-serif;
+        font-size: 22px;
+        width: 390px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+        margin: 6px;
+        resize: none;
+    }
 }
 
 .form_content_registro input {
