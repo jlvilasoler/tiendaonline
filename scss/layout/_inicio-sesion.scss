@@ -5,9 +5,9 @@
     padding-top: 100px;
     padding-left: 39.3%;
     font-size: 25px;
-    background-color: #201f24;
+    background-color: $bk-color;
     padding-bottom: 10px;
-    color: #ffffff;
+    color: $input-color-bar;
 }
 
 
@@ -30,13 +30,13 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #201f24;
-    color: #ffffff;
+    background-color: $bk-color;
+    color: $input-color-bar;
 }
 
 .panel_registrocuenta{
-    background-color: #201f24;
-    color: #ffffff;
+    background-color: $bk-color;
+    color: $input-color-bar;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 100px;
@@ -57,10 +57,10 @@ height: 38px;
 margin: 2px;
 padding: 1px;
 font-size: 20px;
-background-color: #140f7c;
+background-color: $bk-btn-register;
 border-radius: 5px;
-border-color: #0303b1;
-color: #ffffff;
+border-color: $btn-register-border;
+color: $input-color-bar;
 }
 
 .olvide {

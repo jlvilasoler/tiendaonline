@@ -1,6 +1,6 @@
 .categoria_titulo_registro {
-    background-color: #201f24;
-    color: #ffffff;
+    background-color: $bk-title-color;
+    color: $text-title-color;
     font-size: 26px;
     padding-top: 80px;
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 .form_registro {
-    background: #201f24;
+    background: $bk-color;
     font-size: 25px;
     color: #d3d3d3;
     width: 100%;
@@ -60,13 +60,7 @@
     width: 390px;
 }
 
-.main {
-    background-color: #201f24;
-    display: flex;
-    flex-direction: right;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .form_registro fieldset {
     display: flex;

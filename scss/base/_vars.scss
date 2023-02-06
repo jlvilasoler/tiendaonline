@@ -1,4 +1,9 @@
 
+//MAIN COLORS
+$bk-color: #201f24;
+$bk-snd-color: rgba(255, 255, 255, 0.969);
+$bk-hover-color: rgb(255, 255, 255);
+
 //LOGO
 $logo-color: #ffffff;
 $logo-snd-color:#c93c19;
@@ -14,23 +19,49 @@ $footer-menu-color: rgba(191, 191, 191, 0.843);
 $footer-select-color: #ffffff;
 $footer-legal: #ffffff;
 
-//MAIN COLORS
-$bk-color: #201f24;
-$bk-snd-color: rgba(255, 255, 255, 0.969);
-$bk-hover-color: rgb(255, 255, 255);
-
 
 //PRODUCTS CARDS
 $text-product-article: rgb(0, 0, 0);
 $text-product-price: #143d11;
+$text-product-description: #0000006f;
+
+
+
+
 
 //BOTONES AGREGAR A CARRITO
-$text-botton-color: #ffffff;
-$bk-botton-color: #c11414;
-$select-botton-color: #1a731f;
+$text-button-color: #ffffff;
+$bk-button-color: #c11414;
+$select-button-color: #1a731f;
 
 
 //CARD PROMO INDEX
-$text-botton-color: #ffffff;
-$bk-botton-color-card: #140f7c;
-$select-botton-color-card: #0a2e0c;
+$text-button-color-card: #ffffff;
+$bk-button-color-card: #140f7c;
+$select-button-color-card: #0a2e0c;
+
+//SPECIAL OFFERS BAR
+$offer-text-color: rgb(240, 240, 240);
+$bk-offer-color: red;
+
+//CATEGORY SECTION
+$text-title-color: #ffffff;
+$cat-button-selection-bordercolor: #ffffff;
+
+
+//CATEGORY NAME TITLE
+$text-button-color: #ffffff;
+$bk-title-color: #201f24;
+
+//CATEGORY BUTTONS
+$cat-text-button-color: #ffffff;
+$cat-bk-button-color: aliceblue;
+$cat-select-button-color: #ffffff;
+$cat-bk-select-button-color: #c93c19;
+$cat-button-bordercolor: white;
+
+
+//REGISTER BUTTON
+$input-color-bar: #ffffff;
+$bk-btn-register: #140f7c;
+$btn-register-border: #0303b1;

@@ -1,6 +1,6 @@
 /** CONTACTO **/
 .contacto_primer_titulo {
-    background-color: #201f24;
+    background-color: $bk-color;
     font-size: 20px;
     padding: 10px;
     margin: 0px;
@@ -8,7 +8,7 @@
 }
 
 .form_content {
-    background: #201f24;
+    background: $bk-color;
     font-size: 25px;
     color: #d3d3d3;
     height: 1550px;
@@ -21,7 +21,7 @@
 }
 
 .btn .imagen_contact {
-    background-color: #201f24;
+    background-color: $bk-color;
     color: #143d11;
     z-index: 1;
 }
@@ -67,7 +67,7 @@
 }
 
 .main {
-    background-color: #201f24;
+    background-color: $bk-color;
     display: flex;
     justify-content: center;
     flex-direction: right;
@@ -90,8 +90,8 @@
 }
 
 .categoria_titulo_contacto {
-    background-color: #201f24;
-    color: #ffffff;
+    background-color: $bk-color;
+    color: $text-title-color;
     font-size: 26px;
     padding-top: 80px;
     margin: 0;

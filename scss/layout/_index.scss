@@ -59,7 +59,7 @@
 } 
 
 .mostrador .fila .item .descripcion {
-    color: #0000006f;
+    color: $text-product-description;
     font-weight: bold;
     font-size: 16px;
 } 
@@ -73,7 +73,7 @@
 .seleccion {
     transition: 5s ease;
     width: 40%;
-    border: 1px solid white;
+    border: 1px solid $cat-button-selection-bordercolor;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -85,8 +85,8 @@
 .btn {
     border-radius: 7px;
     margin-top: 10px;
-    color: $text-botton-color;
-    background-color: $bk-botton-color;
+    color: $text-button-color;
+    background-color: $bk-button-color;
     padding: 10px;
     display:flex;
     flex-direction: column;
@@ -98,8 +98,8 @@
 }
 
 .btn:hover {
-    background-color: $select-botton-color;
-    color: $text-botton-color;
+    background-color: $select-button-color;
+    color: $text-button-color;
     transition: 0.3s;
 }
 
@@ -117,8 +117,8 @@
 .btn-promo {
     border-radius: 7px;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: $bk-botton-color-card;
+    color: $text-button-color-card;
+    background-color: $bk-button-color-card;
     padding: 10px 25px 10px 25px;
     display:flex;
     flex-direction: column;
@@ -130,6 +130,6 @@
 }
 
 .btn-promo:hover {
-    background-color: $select-botton-color-card;
+    background-color: $select-button-color-card;
     transition: 0.3s;
 }
