@@ -83,21 +83,6 @@ body {
   margin: 2px;
 }
 
-.banner_principal {
-  background-color: #201f24;
-  -webkit-animation-name: banner1;
-          animation-name: banner1;
-  transition: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-}
-
 .banner_segundo {
   background-color: #201f24;
 }
@@ -457,10 +442,11 @@ ul {
 .btn_inicio {
   width: 140px;
   height: 50px;
+  text-align: center;
   margin: 40px;
-  padding: 10px;
   font-size: 20px;
   border-radius: 5px;
+  background-color: snow;
 }
 
 .btn_registro {
@@ -541,6 +527,14 @@ ul {
   resize: none;
   font-size: 28px;
   width: 390px;
+}
+
+.main {
+  background-color: #201f24;
+  display: flex;
+  flex-direction: right;
+  align-items: center;
+  justify-content: center;
 }
 
 .form_registro fieldset {

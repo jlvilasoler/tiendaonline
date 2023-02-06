@@ -1,12 +1,16 @@
 
-//MAIN COLORS
+//MAIN
 $bk-color: #201f24;
 $bk-snd-color: rgba(255, 255, 255, 0.969);
 $bk-hover-color: rgb(255, 255, 255);
+$title-category-font-size: 26px;
 
 //LOGO
 $logo-color: #ffffff;
 $logo-snd-color:#c93c19;
+$logo-text-size: 25px;
+$logo-text-font:'Mitr', sans-serif;
+
 
 
 //HEADER
@@ -18,6 +22,7 @@ $select-color: #625552b4;
 $footer-menu-color: rgba(191, 191, 191, 0.843);
 $footer-select-color: #ffffff;
 $footer-legal: #ffffff;
+$footer-legal-text-size: 13px;
 
 
 //PRODUCTS CARDS
@@ -25,8 +30,8 @@ $text-product-article: rgb(0, 0, 0);
 $text-product-price: #143d11;
 $text-product-description: #0000006f;
 
-
-
+//BOTON INICIO
+$bk-color-button: snow;
 
 
 //BOTONES AGREGAR A CARRITO

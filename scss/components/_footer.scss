@@ -1,4 +1,3 @@
-
 /* BANNER 2 DOWNSIDE */
 .imagen_2 {
     background-color: $footer-menu-color;
@@ -7,7 +6,6 @@
     display: block;
     padding: 1px;
     margin:0 auto;
-    
 }
 
 
@@ -33,7 +31,7 @@
 .legal h5{
     float: right;
     color: $footer-legal;
-    font-size: 13px;
+    font-size: $footer-legal-text-size;
     text-align: right;
     padding: 5px;  
     margin: 20px;

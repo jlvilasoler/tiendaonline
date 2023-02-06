@@ -4,16 +4,16 @@
     display: flex;
     justify-content: right; 
     float: left;
-    font-size: 25px;
+    font-size: $logo-text-size;
     align-items: center;
     padding: 32px;
     background-color: $bk-color;
 }
 
 .second-color {
-    font-size: 25px;
+    font-size: $logo-text-size;
     color: $logo-snd-color;
-    font-family: 'Mitr', sans-serif;
+    font-family: $logo-text-font;
 }
 
 
@@ -35,15 +35,6 @@ body {
 }
 
 
-.banner_principal{
-    background-color: $bk-color;
-    animation-name: banner1;
-    transition: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-delay: 0s;
-}
 
 .banner_segundo {
     background-color: $bk-color;
