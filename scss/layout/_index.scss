@@ -20,7 +20,7 @@
 .mostrador {
     width: 70%;
     transition: .3s ease;
-
+    
     .fila {
         display: flex;
         justify-content: space-around;
@@ -40,10 +40,10 @@
 
         .item {
             width: 100%;
-        }
 
-        .item:hover {
-            background-color: $bk-hover-color;
+            &:hover {
+                background-color: $bk-hover-color;
+            }
         }
 
         img {
@@ -71,8 +71,6 @@
         
     }
 
-
-
 .seleccion {
     transition: 5s ease;
     width: 40%;
@@ -98,14 +96,13 @@
     cursor: pointer;
     align-items: center;
     text-align: center;
-}
 
-.btn:hover {
-    background-color: $select-button-color;
-    color: $text-button-color;
-    transition: 0.3s;
+    &:hover {
+        background-color: $select-button-color;
+        color: $text-button-color;
+        transition: 0.3s;
+    }
 }
-
 
 
 /* MAPA INDEX */
@@ -130,9 +127,9 @@
     cursor: pointer;
     text-align: center;
     align-content: center;
-}
 
-.btn-promo:hover {
-    background-color: $select-button-color-card;
-    transition: 0.3s;
+    &:hover {
+        background-color: $select-button-color-card;
+        transition: 0.3s;
+    }
 }

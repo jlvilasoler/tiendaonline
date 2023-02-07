@@ -2,7 +2,7 @@
 .logo p a {
     color: $logo-color;
     display: flex;
-    justify-content: right; 
+    justify-content: right;
     float: left;
     font-size: $logo-text-size;
     align-items: center;
@@ -63,8 +63,8 @@ nav {
     height: 400px;
     display: block;
     padding: 1px;
-    margin:0 auto;
-    
+    margin: 0 auto;
+
 }
 
 
@@ -77,54 +77,53 @@ nav {
     display: flex;
     justify-content: space-around;
     margin-bottom: 0px;
-    margin-top: 0px;   
+    margin-top: 0px;
 
+    >li>a {
+        display: block;
+        padding: 35px 20px;
+        color: $main-menu-color;
+        text-decoration: none;
+    }
+
+    >li:hover {
+        background-color: $select-color;
+    }
+
+    li:hover .menu-vertical {
+        display: block;
+        transition: .3s;
+    }
 }
-
-.menu-horizontal > li > a{
-display: block;
-padding: 35px 20px;
-color: $main-menu-color;
-text-decoration: none;
-
-}
-
-.menu-horizontal > li:hover {
-background-color: $select-color;
-}
-
-.menu-horizontal li:hover .menu-vertical {
-    display: block;
-    transition: .3s;
-}
-
 
 
 /* MENU VERTICAL */
 .menu-vertical {
     position: absolute;
     display: none;
-    list-style:none;
+    list-style: none;
     width: 170px;
     background-color: $bk-color;
-    z-index:1;
+    z-index: 1;
+
+    li:hover {
+        background-color: $select-color;
+        display: flex;
+        transition: .4s;
+
+        li a {
+            display: block;
+            color: $main-menu-color;
+            padding: 15px 15px 15px 20px;
+            text-decoration: none;
+            transition: .4s;
+        }
+    }
 }
 
-.menu-vertical li:hover{
-    background-color: $select-color;
-    display: flex;
-    transition: .4s;
-}
 
-.menu-vertical li a{
-display: block;
-color: $main-menu-color;
-padding: 15px 15px 15px 20px;
-text-decoration: none;
-transition: .4s;
-}
 
 ul {
     padding: 0;
-    margin:0;
+    margin: 0;
 }

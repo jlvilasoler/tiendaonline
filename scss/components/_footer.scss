@@ -20,11 +20,11 @@
 
 .botones_footer {
     color: $footer-menu-color;
-}
 
-.botones_footer:hover{
-    color: $footer-select-color;
-    transition: .4s;
+    &:hover{
+        color: $footer-select-color;
+        transition: .4s;
+    }
 }
 
 /* LEGAL */

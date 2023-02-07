@@ -35,7 +35,6 @@ a {
 .botones_footer {
   color: rgba(191, 191, 191, 0.843);
 }
-
 .botones_footer:hover {
   color: #ffffff;
   transition: 0.4s;
@@ -256,7 +255,6 @@ ul {
   align-items: center;
   text-align: center;
 }
-
 .btn:hover {
   background-color: #1a731f;
   color: #ffffff;
@@ -285,7 +283,6 @@ ul {
   text-align: center;
   align-content: center;
 }
-
 .btn-promo:hover {
   background-color: #0a2e0c;
   transition: 0.3s;
@@ -658,7 +655,6 @@ ul {
   text-align: center;
   align-content: center;
 }
-
 .btn-promo:hover {
   background-color: #0a2e0c;
   transition: 0.3s;
@@ -688,7 +684,6 @@ ul {
   padding: 2px;
   cursor: pointer;
 }
-
 .btn_categoria:hover {
   background-color: #c93c19;
   color: #ffffff;

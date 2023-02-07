@@ -50,6 +50,7 @@
             border-radius: 10px;
             transition: 1s;
         }
+
         .item {
             width: 100%;
         }
@@ -74,7 +75,7 @@
             font-weight: bold;
             font-size: 16px;
         }
-        
+
         .precio {
             color: $text-product-price;
             font-weight: bold;
@@ -108,50 +109,11 @@
     cursor: pointer;
     text-align: center;
     align-content: center;
-}
 
-.btn-promo:hover {
-    background-color: $select-button-color-card;
-    transition: 0.3s;
-}
-
-
-
-
-
-
-/* BOTONES CATEGORIAS */
-
-.cat {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    padding-bottom: 60px;
-    align-items: center;
-
-    .btn_categoria {
-        width: 380px;
-        height: 70px;
+    &:hover {
+        background-color: $select-button-color-card;
+        transition: 0.3s;
     }
-}
-
-
-.btn_categoria {
-    background-color: $cat-bk-button-color;
-    font-size: 40px;
-    border-color: $cat-button-bordercolor;
-    border-radius: 5px;
-    margin: 1px;
-    text-align: center;
-    font-weight: bold;
-    padding: 2px;
-    cursor: pointer;
-}
-
-.btn_categoria:hover {
-    background-color: $cat-bk-select-button-color;
-    color: $cat-select-button-color;
-    transition: 0.1s;
 }
 
 .categoria {
@@ -160,3 +122,31 @@
     font-size: 26px;
     text-align: center;
 }
+
+
+
+
+/* BOTONES CATEGORIAS */
+
+.cat {
+    @include flex(flex,column,wrap,20px,60px, center)
+
+}
+    .btn_categoria {
+        @include tamanio(380px, 70px);
+        background-color: $cat-bk-button-color;
+        font-size: 40px;
+        border-color: $cat-button-bordercolor;
+        border-radius: 5px;
+        margin: 1px;
+        text-align: center;
+        font-weight: bold;
+        padding: 2px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $cat-bk-select-button-color;
+            color: $cat-select-button-color;
+            transition: 0.1s;
+        }
+    }

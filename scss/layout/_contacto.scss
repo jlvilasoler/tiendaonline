@@ -47,47 +47,40 @@
     width: 390px;
     padding: 7px;
     gap: 10px; 
+
+    input {
+        padding: 5px;
+        font-family: 'Karla', sans-serif;
+        font-size: 22px;
+        width: 390px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+        margin: 6px;
+        resize: none;
+    }
+
+    textarea {
+        resize: none;
+        font-size: 28px;
+        width: 390px;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-top: 20px;
+        height: 1500px;
+        justify-content: center;
+    }
+
+    .tipo {
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+    }
 }
 
-.form_content input {
-    padding: 5px;
-    font-family: 'Karla', sans-serif;
-    font-size: 22px;
-    width: 390px;
-    border-radius: 5px;
-    padding-bottom: 5px;
-    margin: 6px;
-    resize: none;
-}
-
-.form_content textarea {
-    resize: none;
-    font-size: 28px;
-    width: 390px;
-}
-
-.main {
-    background-color: $bk-color;
-    display: flex;
-    justify-content: center;
-    flex-direction: right;
-    align-items: center;
-}
-
-.form_content fieldset {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-top: 20px;
-    height: 1500px;
-    justify-content: center;
-}
-
-.form_content .tipo {
-    padding: 5px;
-    margin: 5px;
-    font-size: 20px;
-}
 
 .categoria_titulo_contacto {
     background-color: $bk-color;
