@@ -5,7 +5,7 @@
     height: 400px;
     display: block;
     padding: 1px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
@@ -13,26 +13,26 @@
 .footer {
     background-color: $bk-color;
     color: $footer-menu-color;
-    padding-top: 30px;  
-    padding: 5px;  
+    padding-top: 30px;
+    padding: 5px;
     margin: 20px;
 }
 
 .botones_footer {
     color: $footer-menu-color;
 
-    &:hover{
+    &:hover {
         color: $footer-select-color;
         transition: .4s;
     }
 }
 
 /* LEGAL */
-.legal h5{
+.legal h5 {
     float: right;
     color: $footer-legal;
     font-size: $footer-legal-text-size;
     text-align: right;
-    padding: 5px;  
+    padding: 5px;
     margin: 20px;
 }
