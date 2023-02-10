@@ -20,13 +20,15 @@
 /* BOTONES CATEGORIAS */
 
 .cat {
-    @include flex(column, wrap, 50px, 60px, center);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 100px;
+    margin: 50px;
+    padding: 20px;
 }
 
 .btn_categoria {
-    @include tamanio(80px, 300px);
+    @include tamanio(80px, 390px);
     background-color: $cat-bk-button-color;
     font-size: 40px;
     display: flex;
@@ -35,7 +37,7 @@
     border-color: $cat-button-bordercolor;
     border-radius: 5px;
     align-items: center;
-    margin: 20px;
+    margin: 5px;
     text-align: center;
     font-weight: bold;
     padding: 50px;

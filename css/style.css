@@ -55,6 +55,27 @@ a {
   margin: 20px;
 }
 
+.fa-instagram {
+  color: violet;
+  padding-top: 10px;
+  font-size: 30px;
+  margin: 2px;
+}
+
+.fa-twitter {
+  color: rgb(4, 93, 141);
+  padding-top: 10px;
+  font-size: 30px;
+  margin: 2px;
+}
+
+.fa-facebook {
+  color: blue;
+  padding-top: 10px;
+  font-size: 30px;
+  margin: 2px;
+}
+
 /* LOGO UPSIDE */
 .logo p a {
   color: #ffffff;
@@ -103,7 +124,7 @@ nav {
 /* CARRUSEL BOOTSTRAP */
 .carousel-inner {
   width: 100%;
-  height: 100% px;
+  height: 100%;
 }
 
 /* BANNER 1 UPSIDE */
@@ -147,17 +168,18 @@ nav {
   background-color: #201f24;
   z-index: 1;
   color: rgba(191, 191, 191, 0.843);
+  text-align: center;
 }
 .menu-vertical li:hover {
   background-color: rgba(98, 85, 82, 0.7058823529);
-  display: flex;
+  height: 60px;
   transition: 0.4s;
   color: rgba(191, 191, 191, 0.843);
+  height: 70%;
 }
 .menu-vertical li:hover li a {
   display: block;
   color: rgba(191, 191, 191, 0.843);
-  padding: 15px 15px 15px 20px;
   text-decoration: none;
   transition: 0.4s;
   background-color: rgba(98, 85, 82, 0.7058823529);
@@ -200,7 +222,7 @@ ul {
 .contacto_primer_titulo {
   background-color: #201f24;
   font-size: 20px;
-  padding: 10px;
+  padding: 1px;
   margin: 0px;
   color: #ffffff;
 }
@@ -229,8 +251,8 @@ ul {
   font-size: 22px;
   text-align: left;
   flex-direction: column;
-  width: 140%;
-  gap: 1px;
+  width: 100%;
+  gap: 5px;
   padding-top: 5px;
   padding-bottom: 20px;
   padding-left: 0px;
@@ -238,7 +260,7 @@ ul {
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
 .form_content select {
-  height: 40px;
+  height: 44px;
   display: flex;
   font-size: 25px;
   width: 390px;
@@ -257,7 +279,7 @@ ul {
 }
 .form_content select textarea {
   resize: none;
-  font-size: 28px;
+  font-size: 32px;
   width: 390px;
 }
 .form_content select fieldset {
@@ -298,17 +320,15 @@ ul {
 
 /* BOTONES CATEGORIAS */
 .cat {
-  display: column;
-  flex-direction: wrap;
-  flex-wrap: 50px;
-  gap: 60px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 100px;
+  margin: 50px;
+  padding: 20px;
 }
 
 .btn_categoria {
-  width: 300px;
+  width: 390px;
   height: 80px;
   background-color: aliceblue;
   font-size: 40px;
@@ -318,7 +338,7 @@ ul {
   border-color: white;
   border-radius: 5px;
   align-items: center;
-  margin: 20px;
+  margin: 5px;
   text-align: center;
   font-weight: bold;
   padding: 50px;
@@ -415,8 +435,7 @@ ul {
   background: #201f24;
   font-size: 25px;
   color: #d3d3d3;
-  width: 100%;
-  height: 1350px;
+  height: 1100px;
   display: flex;
   flex-direction: center;
   justify-content: center;
@@ -429,7 +448,7 @@ ul {
   flex-direction: column;
   margin-top: 5px;
   padding-top: 5px;
-  height: 1300px;
+  height: 1100px;
   justify-content: center;
 }
 
@@ -438,7 +457,7 @@ ul {
   font-size: 22px;
   text-align: left;
   flex-direction: column;
-  width: 180%;
+  width: 100%;
   gap: 1px;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -446,7 +465,7 @@ ul {
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
 .form_content_registro select {
-  height: 40px;
+  height: 45px;
   display: flex;
   font-size: 25px;
   width: 390px;
@@ -471,7 +490,7 @@ ul {
 .form_content_registro select .tipo {
   padding: 5px;
   margin: 5px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* BARRA OFERTAS ESPECIALES */
@@ -489,17 +508,15 @@ ul {
 
 /* BOTONES CATEGORIAS */
 .cat {
-  display: column;
-  flex-direction: wrap;
-  flex-wrap: 50px;
-  gap: 60px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 100px;
+  margin: 50px;
+  padding: 20px;
 }
 
 .btn_categoria {
-  width: 300px;
+  width: 390px;
   height: 80px;
   background-color: aliceblue;
   font-size: 40px;
@@ -509,7 +526,7 @@ ul {
   border-color: white;
   border-radius: 5px;
   align-items: center;
-  margin: 20px;
+  margin: 5px;
   text-align: center;
   font-weight: bold;
   padding: 50px;
@@ -685,12 +702,12 @@ ul {
     width: 100%;
   }
   .menu-vertical {
-    font-size: 16px;
     display: none;
     width: 100%;
+    text-align: left;
   }
   .mapa_imagen {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 400px;
     height: 220px;
   }

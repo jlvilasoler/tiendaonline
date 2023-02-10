@@ -53,7 +53,7 @@ nav {
 /* CARRUSEL BOOTSTRAP */
 .carousel-inner {
     width: 100%;
-    height: 100%px;
+    height: 100%;
 }
 
 /* BANNER 1 UPSIDE */
@@ -106,17 +106,20 @@ nav {
     background-color: $bk-color;
     z-index: 1;
     color: $main-menu-color;
+    text-align: center;
 
     li:hover {
         background-color: $select-color;
-        display: flex;
+        height: 60px;
         transition: .4s;
         color: $main-menu-color;
+        height: 70%;
+
+        
 
         li a {
             display: block;
             color: $main-menu-color;
-            padding: 15px 15px 15px 20px;
             text-decoration: none;
             transition: .4s;
             background-color: $select-color;

@@ -2,7 +2,7 @@
 .contacto_primer_titulo {
     background-color: $bk-color;
     font-size: 20px;
-    padding: 10px;
+    padding: 1px;
     margin: 0px;
     color: #ffffff;
 }
@@ -32,8 +32,8 @@
     font-size: 22px;
     text-align: left;
     flex-direction: column;
-    width: 140%;
-    gap: 1px;
+    width: 100%;
+    gap: 5px;
     padding-top: 5px;
     padding-bottom: 20px;
     padding-left: 0px;
@@ -41,7 +41,7 @@
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
 .form_content select {
-    height: 40px;
+    height: 44px;
     display: flex;
     font-size: 25px;
     width: 390px;
@@ -61,7 +61,7 @@
 
     textarea {
         resize: none;
-        font-size: 28px;
+        font-size: 32px;
         width: 390px;
     }
 
@@ -80,7 +80,6 @@
         font-size: 20px;
     }
 }
-
 
 .categoria_titulo_contacto {
     background-color: $bk-color;

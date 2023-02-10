@@ -38,6 +38,14 @@
 }
 
 
+@each $redsocial, $color in $redes {
 
+    .fa-#{$redsocial} {
+        color: $color;
+        padding-top: 10px;
+        font-size: 30px;
+        margin: 2px;
+    }
+}
 
 
