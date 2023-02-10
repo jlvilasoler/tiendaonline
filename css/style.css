@@ -56,24 +56,21 @@ a {
 }
 
 .fa-instagram {
-  color: violet;
-  padding-top: 10px;
-  font-size: 30px;
-  margin: 2px;
+  color: rgb(129, 46, 129);
+  padding-top: 1px;
+  font-size: 20px;
 }
 
 .fa-twitter {
-  color: rgb(4, 93, 141);
-  padding-top: 10px;
-  font-size: 30px;
-  margin: 2px;
+  color: rgb(17, 79, 166);
+  padding-top: 1px;
+  font-size: 20px;
 }
 
 .fa-facebook {
-  color: blue;
-  padding-top: 10px;
-  font-size: 30px;
-  margin: 2px;
+  color: rgb(9, 9, 175);
+  padding-top: 1px;
+  font-size: 20px;
 }
 
 /* LOGO UPSIDE */
@@ -231,13 +228,13 @@ ul {
   background: #201f24;
   font-size: 25px;
   color: #d3d3d3;
-  height: 1550px;
+  height: 1450px;
   display: flex;
   flex-direction: center;
   justify-content: center;
   gap: 10px;
   resize: none;
-  padding-top: 0px;
+  padding-top: 80px;
 }
 
 .btn .imagen_contact {
@@ -253,9 +250,7 @@ ul {
   flex-direction: column;
   width: 100%;
   gap: 5px;
-  padding-top: 5px;
   padding-bottom: 20px;
-  padding-left: 0px;
 }
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
@@ -729,6 +724,7 @@ ul {
     font-size: 16px;
     display: none;
     width: 100%;
+    text-align: left;
   }
   .oferta_titulo h1 {
     font-size: 16px;
