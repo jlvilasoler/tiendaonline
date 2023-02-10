@@ -1,0 +1,109 @@
+/* CONTENIDO PRINCIPAL (CARDS PRODUCTOS) */
+.contenido {
+    max-width: 400px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.cards {
+    background-color: $bk-snd-color;
+    display: flex;
+    padding: 0px 10px 20px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.mostrador {
+    width: 70%;
+    transition: .3s ease;
+
+    .fila {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+
+        .item {
+            max-width: 200px;
+            padding: 0px;
+            height: 400px;
+            text-align: center;
+            margin: 5 30px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 1s;
+        }
+
+        .item {
+            width: 100%;
+        }
+
+        .item:hover {
+            background-color: $bk-hover-color;
+        }
+
+        img {
+            @extend %imagen;
+        }
+
+        .articulo {
+            color: $text-product-article;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .descripcion {
+            color: $text-product-description;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .precio {
+            color: $text-product-price;
+            font-weight: bold;
+            font-size: 32px;
+        }
+    }
+}
+
+.seleccion {
+    transition: 5s ease;
+    width: 40%;
+    border: 1px solid $cat-button-selection-bordercolor;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* BOTONES AGREGAR A CARRITO */
+.btn-promo {
+    border-radius: 7px;
+    margin-top: 20px;
+    color: $text-button-color;
+    background-color: $bk-button-color-card;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+
+    &:hover {
+        background-color: $select-button-color-card;
+        transition: 0.3s;
+    }
+}
+
+.categoria {
+    background-color: $bk-color;
+    color: $cat-button-bordercolor;
+    font-size: 26px;
+    text-align: center;
+}
