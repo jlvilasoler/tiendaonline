@@ -1,0 +1,24 @@
+//imports de los partials
+//base
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/mixin';
+@import 'base/extend';
+
+//Components
+@import './components/footer';
+@import './components/header';
+
+//layout
+@import './layout/index';
+@import './layout/contacto';
+@import './layout/categorias';
+@import './layout/inicio-sesion';
+@import './layout/registro';
+@import './layout/categorias';
+@import './layout/productos';
+@import './layout/bebidas';
+@import './layout/almacen';
+@import './layout/perfumeria';
+@import './layout/limpieza';
+@import './layout/medias';

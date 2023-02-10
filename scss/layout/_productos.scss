@@ -107,3 +107,28 @@
     font-size: 26px;
     text-align: center;
 }
+
+
+/* BOTONES AGREGAR A CARRITO */
+.btn {
+    border-radius: 7px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #c11414;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn:hover {
+    background-color: #1a731f;
+    color: #ffffff;
+    transition: 0.3s;
+}
+

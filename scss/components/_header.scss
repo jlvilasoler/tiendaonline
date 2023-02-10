@@ -105,11 +105,13 @@ nav {
     width: 170px;
     background-color: $bk-color;
     z-index: 1;
+    color: $main-menu-color;
 
     li:hover {
         background-color: $select-color;
         display: flex;
         transition: .4s;
+        color: $main-menu-color;
 
         li a {
             display: block;
@@ -117,6 +119,7 @@ nav {
             padding: 15px 15px 15px 20px;
             text-decoration: none;
             transition: .4s;
+            background-color: $select-color;
         }
     }
 }
@@ -127,3 +130,4 @@ ul {
     padding: 0;
     margin: 0;
 }
+
