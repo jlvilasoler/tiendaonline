@@ -74,6 +74,7 @@ nav {
     margin-bottom: 0px;
     margin-top: 0px;
 
+
     >li>a {
         display: block;
         padding: 35px 20px;
@@ -103,6 +104,8 @@ nav {
     color: $main-menu-color;
     text-align: center;
 
+
+
     li:hover {
         background-color: $select-color;
         height: 60px;
@@ -110,12 +113,14 @@ nav {
         color: $main-menu-color;
         height: 70%;
 
+
         li a {
             display: block;
             color: $main-menu-color;
             text-decoration: none;
-            transition: .4s;
+            transition: .3s;
             background-color: $select-color;
+
         }
     }
 }
