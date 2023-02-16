@@ -73,7 +73,7 @@ nav {
     justify-content: space-around;
     margin-bottom: 0px;
     margin-top: 0px;
-
+    font-size: 20px;
 
     >li>a {
         display: block;
@@ -84,6 +84,7 @@ nav {
 
     >li:hover {
         background-color: $select-color;
+    
     }
 
     li:hover .menu-vertical {

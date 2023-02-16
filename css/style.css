@@ -141,6 +141,7 @@ nav {
   justify-content: space-around;
   margin-bottom: 0px;
   margin-top: 0px;
+  font-size: 20px;
 }
 .menu-horizontal > li > a {
   display: block;
@@ -178,7 +179,7 @@ nav {
   display: block;
   color: rgba(191, 191, 191, 0.843);
   text-decoration: none;
-  transition: 0.4s;
+  transition: 0.3s;
   background-color: rgba(98, 85, 82, 0.7058823529);
 }
 
@@ -697,6 +698,7 @@ ul {
     width: 100%;
   }
   .menu-vertical {
+    font-size: 16px;
     display: none;
     width: 100%;
     text-align: left;
