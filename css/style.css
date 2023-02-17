@@ -3,17 +3,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Karla', sans-serif; }
+  font-family: "Karla", sans-serif;
+}
 
 a {
   text-decoration: none;
   color: rgba(191, 191, 191, 0.843);
-  transition: .4s;
-  padding: 0px; }
+  transition: 0.4s;
+  padding: 0px;
+}
 
 .mostrador .fila img {
   width: 100%;
-  margin: 30px 0; }
+  margin: 30px 0;
+}
 
 /* BANNER 2 DOWNSIDE */
 .imagen_2 {
@@ -22,7 +25,8 @@ a {
   height: 400px;
   display: block;
   padding: 1px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /* FOOTER */
 .footer {
@@ -30,13 +34,16 @@ a {
   color: rgba(191, 191, 191, 0.843);
   padding-top: 30px;
   padding: 5px;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .botones_footer {
-  color: rgba(191, 191, 191, 0.843); }
-  .botones_footer:hover {
-    color: #ffffff;
-    transition: .4s; }
+  color: rgba(191, 191, 191, 0.843);
+}
+.botones_footer:hover {
+  color: #ffffff;
+  transition: 0.4s;
+}
 
 /* LEGAL */
 .legal h5 {
@@ -45,22 +52,26 @@ a {
   font-size: 13px;
   text-align: right;
   padding: 5px;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .fa-instagram {
-  color: #812e81;
+  color: rgb(129, 46, 129);
   padding-top: 1px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .fa-twitter {
-  color: #114fa6;
+  color: rgb(17, 79, 166);
   padding-top: 1px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .fa-facebook {
-  color: #0909af;
+  color: rgb(9, 9, 175);
   padding-top: 1px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 /* LOGO UPSIDE */
 .logo p a {
@@ -71,26 +82,32 @@ a {
   font-size: 25px;
   align-items: center;
   padding: 32px;
-  background-color: #201f24; }
+  background-color: #201f24;
+}
 
 .second-color {
   font-size: 25px;
   color: #c93c19;
-  font-family: "Mitr", sans-serif; }
+  font-family: "Mitr", sans-serif;
+}
 
 .logo1 {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 /* ESTILOS GENERALES */
 body {
-  background-color: #201f24; }
+  background-color: #201f24;
+}
 
 .contenido-principal {
   background-color: #201f24;
-  margin: 2px; }
+  margin: 2px;
+}
 
 .banner_segundo {
-  background-color: #201f24; }
+  background-color: #201f24;
+}
 
 nav {
   max-width: 900px;
@@ -98,12 +115,14 @@ nav {
   background-color: #201f24;
   font-size: 20px;
   margin: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+}
 
 /* CARRUSEL BOOTSTRAP */
 .carousel-inner {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 /* BANNER 1 UPSIDE */
 .imagen_1 {
@@ -112,7 +131,8 @@ nav {
   height: 400px;
   display: block;
   padding: 1px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /* MENU HORIZONTAL */
 .menu-horizontal {
@@ -121,17 +141,21 @@ nav {
   justify-content: space-around;
   margin-bottom: 0px;
   margin-top: 0px;
-  font-size: 20px; }
-  .menu-horizontal > li > a {
-    display: block;
-    padding: 35px 20px;
-    color: rgba(191, 191, 191, 0.843);
-    text-decoration: none; }
-  .menu-horizontal > li:hover {
-    background-color: #625552b4; }
-  .menu-horizontal li:hover .menu-vertical {
-    display: block;
-    transition: .3s; }
+  font-size: 20px;
+}
+.menu-horizontal > li > a {
+  display: block;
+  padding: 35px 20px;
+  color: rgba(191, 191, 191, 0.843);
+  text-decoration: none;
+}
+.menu-horizontal > li:hover {
+  background-color: rgba(98, 85, 82, 0.7058823529);
+}
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+  transition: 0.3s;
+}
 
 /* MENU VERTICAL */
 .menu-vertical {
@@ -142,30 +166,35 @@ nav {
   background-color: #201f24;
   z-index: 1;
   color: rgba(191, 191, 191, 0.843);
-  text-align: center; }
-  .menu-vertical li:hover {
-    background-color: #625552b4;
-    height: 60px;
-    transition: .4s;
-    color: rgba(191, 191, 191, 0.843);
-    height: 70%; }
-    .menu-vertical li:hover li a {
-      display: block;
-      color: rgba(191, 191, 191, 0.843);
-      text-decoration: none;
-      transition: .3s;
-      background-color: #625552b4; }
+  text-align: center;
+}
+.menu-vertical li:hover {
+  background-color: rgba(98, 85, 82, 0.7058823529);
+  height: 60px;
+  transition: 0.4s;
+  color: rgba(191, 191, 191, 0.843);
+  height: 70%;
+}
+.menu-vertical li:hover li a {
+  display: block;
+  color: rgba(191, 191, 191, 0.843);
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: rgba(98, 85, 82, 0.7058823529);
+}
 
 ul {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 /* CONTENIDO PRINCIPAL (CARDS PRODUCTOS) */
 /* MAPA INDEX */
 .mapa_imagen {
   padding-top: 30px;
   width: 520px;
-  height: 300px; }
+  height: 300px;
+}
 
 /** CARD FINAL PROMO **/
 .btn-promo {
@@ -180,10 +209,12 @@ ul {
   font-size: 23px;
   cursor: pointer;
   text-align: center;
-  align-content: center; }
-  .btn-promo:hover {
-    background-color: #0a2e0c;
-    transition: 0.3s; }
+  align-content: center;
+}
+.btn-promo:hover {
+  background-color: #0a2e0c;
+  transition: 0.3s;
+}
 
 /** CONTACTO **/
 .contacto_primer_titulo {
@@ -191,7 +222,8 @@ ul {
   font-size: 20px;
   padding: 1px;
   margin: 0px;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .form_content {
   background: #201f24;
@@ -203,12 +235,14 @@ ul {
   justify-content: center;
   gap: 10px;
   resize: none;
-  padding-top: 80px; }
+  padding-top: 80px;
+}
 
 .btn .imagen_contact {
   background-color: #201f24;
   color: #143d11;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .form_content_contacto {
   display: flex;
@@ -217,7 +251,8 @@ ul {
   flex-direction: column;
   width: 100%;
   gap: 5px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
 .form_content select {
@@ -226,31 +261,36 @@ ul {
   font-size: 25px;
   width: 390px;
   padding: 7px;
-  gap: 10px; }
-  .form_content select input {
-    padding: 5px;
-    font-family: 'Karla', sans-serif;
-    font-size: 22px;
-    width: 390px;
-    border-radius: 5px;
-    padding-bottom: 5px;
-    margin: 6px;
-    resize: none; }
-  .form_content select textarea {
-    resize: none;
-    font-size: 32px;
-    width: 390px; }
-  .form_content select fieldset {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-top: 20px;
-    height: 1500px;
-    justify-content: center; }
-  .form_content select .tipo {
-    padding: 5px;
-    margin: 5px;
-    font-size: 20px; }
+  gap: 10px;
+}
+.form_content select input {
+  padding: 5px;
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  width: 390px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  margin: 6px;
+  resize: none;
+}
+.form_content select textarea {
+  resize: none;
+  font-size: 32px;
+  width: 390px;
+}
+.form_content select fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 1500px;
+  justify-content: center;
+}
+.form_content select .tipo {
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
 
 .categoria_titulo_contacto {
   background-color: #201f24;
@@ -258,18 +298,21 @@ ul {
   font-size: 26px;
   padding-top: 80px;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 /* BARRA OFERTAS ESPECIALES */
 .ofertas {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   background-color: red;
   text-align: center;
-  margin-top: 90px; }
+  margin-top: 90px;
+}
 
 .oferta_titulo h1 {
   font-size: 25px;
-  margin: 0; }
+  margin: 0;
+}
 
 /* BOTONES CATEGORIAS */
 .cat {
@@ -277,7 +320,8 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: 50px;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .btn_categoria {
   width: 390px;
@@ -294,11 +338,13 @@ ul {
   text-align: center;
   font-weight: bold;
   padding: 50px;
-  cursor: pointer; }
-  .btn_categoria:hover {
-    background-color: #c93c19;
-    color: #ffffff;
-    transition: 0.1s; }
+  cursor: pointer;
+}
+.btn_categoria:hover {
+  background-color: #c93c19;
+  color: #ffffff;
+  transition: 0.1s;
+}
 
 /** INICIO DE SESION **/
 /** PAGINA MI CUENTA (INGRESO SESION) **/
@@ -308,33 +354,38 @@ ul {
   font-size: 25px;
   background-color: #201f24;
   padding-bottom: 10px;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .input_password {
   width: 390px;
   height: 50px;
   font-size: 22px;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .input_iniciar {
   width: 390px;
   height: 50px;
   font-size: 22px;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .panel_form {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #201f24;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .panel_registrocuenta {
   background-color: #201f24;
   color: #ffffff;
   text-align: center;
   padding-top: 70px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
 
 .btn_inicio {
   width: 140px;
@@ -344,7 +395,8 @@ ul {
   font-size: 20px;
   border-radius: 5px;
   background-color: snow;
-  color: black; }
+  color: black;
+}
 
 .btn_registro {
   width: 120px;
@@ -355,14 +407,16 @@ ul {
   background-color: #140f7c;
   border-radius: 5px;
   border-color: #0303b1;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .olvide {
   font-size: 18px;
   padding: 10px;
   padding-top: 1PX;
   margin: 10px;
-  color: #c93c19; }
+  color: #c93c19;
+}
 
 .categoria_titulo_registro {
   background-color: #201f24;
@@ -370,7 +424,8 @@ ul {
   font-size: 26px;
   padding-top: 80px;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 .form_registro {
   background: #201f24;
@@ -382,14 +437,16 @@ ul {
   justify-content: center;
   gap: 10px;
   resize: none;
-  padding-top: 0px; }
-  .form_registro fieldset {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-    padding-top: 5px;
-    height: 1100px;
-    justify-content: center; }
+  padding-top: 0px;
+}
+.form_registro fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 1100px;
+  justify-content: center;
+}
 
 .form_content_registro {
   display: flex;
@@ -399,7 +456,8 @@ ul {
   width: 100%;
   gap: 1px;
   padding-top: 5px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /** BARRAS DEPARTAMENTO - CIUDAD/LOCALIDAD: **/
 .form_content_registro select {
@@ -408,35 +466,41 @@ ul {
   font-size: 25px;
   width: 390px;
   padding: 7px;
-  gap: 10px; }
-  .form_content_registro select input {
-    padding: 5px;
-    font-family: 'Karla', sans-serif;
-    font-size: 22px;
-    width: 390px;
-    border-radius: 5px;
-    padding-bottom: 5px;
-    margin: 6px;
-    resize: none; }
-  .form_content_registro select textarea {
-    resize: none;
-    font-size: 28px;
-    width: 390px; }
-  .form_content_registro select .tipo {
-    padding: 5px;
-    margin: 5px;
-    font-size: 25px; }
+  gap: 10px;
+}
+.form_content_registro select input {
+  padding: 5px;
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  width: 390px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  margin: 6px;
+  resize: none;
+}
+.form_content_registro select textarea {
+  resize: none;
+  font-size: 28px;
+  width: 390px;
+}
+.form_content_registro select .tipo {
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+}
 
 /* BARRA OFERTAS ESPECIALES */
 .ofertas {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   background-color: red;
   text-align: center;
-  margin-top: 90px; }
+  margin-top: 90px;
+}
 
 .oferta_titulo h1 {
   font-size: 25px;
-  margin: 0; }
+  margin: 0;
+}
 
 /* BOTONES CATEGORIAS */
 .cat {
@@ -444,7 +508,8 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: 50px;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .btn_categoria {
   width: 390px;
@@ -461,18 +526,21 @@ ul {
   text-align: center;
   font-weight: bold;
   padding: 50px;
-  cursor: pointer; }
-  .btn_categoria:hover {
-    background-color: #c93c19;
-    color: #ffffff;
-    transition: 0.1s; }
+  cursor: pointer;
+}
+.btn_categoria:hover {
+  background-color: #c93c19;
+  color: #ffffff;
+  transition: 0.1s;
+}
 
 /* CONTENIDO PRINCIPAL (CARDS PRODUCTOS) */
 .contenido {
   max-width: 400px;
   width: 100%;
   margin: 40px auto;
-  display: flex; }
+  display: flex;
+}
 
 .cards {
   background-color: rgba(255, 255, 255, 0.969);
@@ -482,40 +550,49 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .mostrador {
   width: 70%;
-  transition: .3s ease; }
-  .mostrador .fila {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px; }
-    .mostrador .fila .item {
-      max-width: 200px;
-      padding: 0px;
-      height: 400px;
-      text-align: center;
-      margin: 5 30px;
-      cursor: pointer;
-      border-radius: 10px;
-      transition: 1s; }
-    .mostrador .fila .item {
-      width: 100%; }
-    .mostrador .fila .item:hover {
-      background-color: white; }
-    .mostrador .fila .articulo {
-      color: black;
-      font-weight: bold;
-      font-size: 16px; }
-    .mostrador .fila .descripcion {
-      color: #0000006f;
-      font-weight: bold;
-      font-size: 16px; }
-    .mostrador .fila .precio {
-      color: #143d11;
-      font-weight: bold;
-      font-size: 32px; }
+  transition: 0.3s ease;
+}
+.mostrador .fila {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.mostrador .fila .item {
+  max-width: 200px;
+  padding: 0px;
+  height: 400px;
+  text-align: center;
+  margin: 5 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 1s;
+}
+.mostrador .fila .item {
+  width: 100%;
+}
+.mostrador .fila .item:hover {
+  background-color: rgb(255, 255, 255);
+}
+.mostrador .fila .articulo {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+}
+.mostrador .fila .descripcion {
+  color: rgba(0, 0, 0, 0.4352941176);
+  font-weight: bold;
+  font-size: 16px;
+}
+.mostrador .fila .precio {
+  color: #143d11;
+  font-weight: bold;
+  font-size: 32px;
+}
 
 .seleccion {
   transition: 5s ease;
@@ -525,7 +602,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* BOTONES AGREGAR A CARRITO */
 .btn-promo {
@@ -540,16 +618,19 @@ ul {
   font-size: 23px;
   cursor: pointer;
   text-align: center;
-  align-content: center; }
-  .btn-promo:hover {
-    background-color: #0a2e0c;
-    transition: 0.3s; }
+  align-content: center;
+}
+.btn-promo:hover {
+  background-color: #0a2e0c;
+  transition: 0.3s;
+}
 
 .categoria {
   background-color: #201f24;
   color: white;
   font-size: 26px;
-  text-align: center; }
+  text-align: center;
+}
 
 /* BOTONES AGREGAR A CARRITO */
 .btn {
@@ -564,12 +645,14 @@ ul {
   font-size: 23px;
   cursor: pointer;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+}
 
 .btn:hover {
   background-color: #1a731f;
   color: #ffffff;
-  transition: 0.3s; }
+  transition: 0.3s;
+}
 
 .categoria_titulo_principal {
   background-color: #201f24;
@@ -577,7 +660,8 @@ ul {
   font-size: 26px;
   text-align: center;
   padding-top: 80px;
-  margin: 0; }
+  margin: 0;
+}
 
 .categoria_titulo_principal {
   background-color: #201f24;
@@ -585,7 +669,8 @@ ul {
   font-size: 26px;
   text-align: center;
   padding-top: 80px;
-  margin: 0; }
+  margin: 0;
+}
 
 .categoria_titulo_principal {
   background-color: #201f24;
@@ -593,7 +678,8 @@ ul {
   font-size: 26px;
   text-align: center;
   padding-top: 80px;
-  margin: 0; }
+  margin: 0;
+}
 
 .categoria_titulo_principal {
   background-color: #201f24;
@@ -601,40 +687,43 @@ ul {
   font-size: 26px;
   text-align: center;
   padding-top: 80px;
-  margin: 0; }
+  margin: 0;
+}
 
+@media only screen and (max-width: 1200px) {
+  .menu-horizontal {
+    width: 50%;
+  }
+  .menu-horizontal > li > a {
+    padding: 35px 4px;
+    font-size: 16px;
+  }
+  .menu-vertical {
+    width: 112px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .menu-horizontal {
     font-size: 16px;
     display: inline-block;
     justify-content: center;
-    width: 100%; }
-    .menu-horizontal > li > a {
-      padding: 35px 5px; }
+    width: 100%;
+  }
   .menu-vertical {
     font-size: 16px;
     display: none;
     width: 100%;
-    text-align: left; }
-  .oferta_titulo h1 {
-    font-size: 16px; } }
-
-@media only screen and (max-width: 550px) {
-  .menu-horizontal {
-    font-size: 16px;
-    display: inline-block;
-    justify-content: center;
-    width: 100%; }
-  .menu-vertical {
-    font-size: 16px;
-    display: none;
-    width: 100%;
-    text-align: left; }
+    text-align: left;
+  }
   .mapa_imagen {
     padding-top: 50px;
     width: 400px;
-    height: 220px; }
+    height: 220px;
+  }
   .legal h5 {
-    font-size: 9px; }
+    font-size: 9px;
+  }
   .oferta_titulo h1 {
-    font-size: 16px; } }
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,39 +1,25 @@
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 1200px) {
     .menu-horizontal {
+        width: 50%;
+    }
+
+    .menu-horizontal>li>a {
+        padding: 35px 4px;
         font-size: 16px;
-        display: inline-block;
-        justify-content: center;
-        width: 100%;
-
-        > li > a {
-
-            padding: 35px 5px;
-            }
     }
 
     .menu-vertical {
-        font-size: 16px;
-        display: none;
-        width: 100%;
-        text-align: left;
+        width: 112px;
+
     }
-
-    .oferta_titulo h1 {
-        font-size: 16px;
-    }
-
-
 }
 
-
-
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 768px) {
     .menu-horizontal {
         font-size: 16px;
         display: inline-block;
         justify-content: center;
         width: 100%;
-
     }
 
     .menu-vertical {
@@ -49,7 +35,7 @@
         height: 220px;
     }
 
-    .legal h5{
+    .legal h5 {
         font-size: 9px;
     }
 
@@ -57,10 +43,3 @@
         font-size: 16px;
     }
 }
-
-
-
-
-
-
-
