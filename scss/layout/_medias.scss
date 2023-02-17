@@ -1,3 +1,32 @@
+@media only screen and (max-width:768px){
+    .menu-horizontal {
+        font-size: 16px;
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+
+        > li > a {
+
+            padding: 35px 5px;
+            }
+    }
+
+    .menu-vertical {
+        font-size: 16px;
+        display: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    .oferta_titulo h1 {
+        font-size: 16px;
+    }
+
+
+}
+
+
+
 @media only screen and (max-width: 550px){
     .menu-horizontal {
         font-size: 16px;
@@ -35,29 +64,3 @@
 
 
 
-@media only screen and (max-width:768px){
-    .menu-horizontal {
-        font-size: 16px;
-        display: inline-block;
-        justify-content: center;
-        width: 100%;
-
-        > li > a {
-
-            padding: 35px 5px;
-            }
-    }
-
-    .menu-vertical {
-        font-size: 16px;
-        display: none;
-        width: 100%;
-        text-align: left;
-    }
-
-    .oferta_titulo h1 {
-        font-size: 16px;
-    }
-
-
-}
