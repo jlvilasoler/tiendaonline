@@ -722,6 +722,9 @@ ul {
     justify-content: center;
     width: 100%;
   }
+  .menu-horizontal > li > a {
+    padding: 35px 5px;
+  }
   .menu-vertical {
     font-size: 16px;
     display: none;

@@ -4,6 +4,7 @@
         display: inline-block;
         justify-content: center;
         width: 100%;
+
     }
 
     .menu-vertical {
@@ -40,6 +41,11 @@
         display: inline-block;
         justify-content: center;
         width: 100%;
+
+        > li > a {
+
+            padding: 35px 5px;
+            }
     }
 
     .menu-vertical {
